@@ -23,11 +23,11 @@
         echo 'Zmienna: '.$a.'<br>';
         
         if($a > 0) 
-            echo 'Zmienna jest dodatnia';
+            echo 'Zmienna jest dodatnia.';
         elseif($a < 0) 
-            echo 'Zmienna jest ujemna';
+            echo 'Zmienna jest ujemna.';
         else 
-            echo 'Zmienna jest równa zero';
+            echo 'Zmienna jest równa zero.';
     ?>
     </body>
 </html>
