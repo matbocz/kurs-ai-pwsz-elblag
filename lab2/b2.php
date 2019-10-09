@@ -30,7 +30,7 @@
 					if ($i == 0 || $i == $rysowane_gwizdki - 1)
 						echo "*";
 					else
-						echo "<font color=blue>*</font> ";
+						echo "<span style='color:red;'>*</span>";;
 					$i += 1;
 				}
 				$rysowane_gwizdki += 1;

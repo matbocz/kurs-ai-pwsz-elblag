@@ -22,6 +22,8 @@
 		<a href="b1.php?ilosc=5">START</a><br>
 
 		<?php
+			error_reporting(0);
+
 			if (isset($_GET['ilosc']))
 				echo "Ilość to: ".$_GET['ilosc']."<br>";
 			else
@@ -32,9 +34,9 @@
 			for($i = 0; $ilosc > $i; $i++)
 			{
 				if ($liczba % 2 == 0)
-					echo "<font color=blue>{$liczba}</font> ";
+					echo "<span style='color:blue;'>{$liczba}</span> ";
 				else
-					echo "<font color=green>{$liczba}</font> ";
+					echo "<span style='color:green;'>{$liczba}</span> ";
 				$liczba += 3;
 			}
 		?>
