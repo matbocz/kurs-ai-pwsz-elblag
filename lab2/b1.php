@@ -22,7 +22,7 @@
 		<a href="b1.php?ilosc=5">START</a><br>
 
 		<?php
-			if(isset($_GET['ilosc']))
+			if (isset($_GET['ilosc']))
 				echo "Ilość to: ".$_GET['ilosc']."<br>";
 			else
 				echo "Naciśnij START";
