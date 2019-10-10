@@ -20,7 +20,7 @@
 
 		<?php
 			if (isset($_POST['liczba']))
-				echo "Liczba to: ".$_POST['liczba']."<br>";
+				echo "Wysokość trójkąta: ".$_POST['liczba']."<br>";
 			$liczba_gwiazdek = $_POST['liczba'];
 			
 			$rysowane_gwizdki = 1;
